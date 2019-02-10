@@ -126,3 +126,5 @@ trxButton.addEventListener("click",async function(e){
 }
 
 window.onload=add
+setInterval(add, 3000);
+ 
