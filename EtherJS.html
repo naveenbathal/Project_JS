@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+        <link rel="stylesheet" href="EtherJS.css">
+        <!-- <meta http-equiv="refresh" content="5" /> -->
+        <script src="EtherJS.js"></script>
+    </head>
+    <body>
+        <div class = "blueblock" >
+                
+                <img id="image"  src= "dark line globe.png" height="60" width="60" > 
+                        
+                <a id="marketcapa" href="https://etherscan.io/stat/supply" >
+                   
+                </a> <br>
+
+                <a id="btc" href="https://etherscan.io/chart/etherprice" title="View Historic Data" ></a> <br> <br>
+        <div>
+            <div class = "lastblockdiv">                
+                <a href="https://etherscan.io/blocks"> LAST BLOCK</a> <br>
+                <a id="lastblock" href="https://etherscan.io/blocks" title="The latest block no" ></a> <br>
+            </div>
+            <div class="transcationdiv">    
+                <a href="https://etherscan.io/txs" font-family = "Courier New" >TRANSACTIONS</a> <br>
+                <a id="transaction" href="https://etherscan.io/txs" title="Total transaction counter">  </a> <br>
+            </div>
+        </div>   <br><br>
+        <div class="tranHash"> 
+            <div class="hashratediv" >        
+                <a id="hashratehead" href="https://etherscan.io/chart/hashrate">Hash Rate</a> <br>
+                <a id="hashrate" title = "Avg Hash Rate(Last 12 hours)"> </a> <br>
+            </div>
+            <div class="networkdiv">
+                <a id="networkhead" href="https://etherscan.io/chart/difficulty" font="serif">Network Difficulty</a> <br>
+                <a id="difficulty"  title="Average difficulty" rel="tooltip">  </a> <br>
+            </div>
+        </div>    <br>
+            <form id = "formid" type = "search" > <br>
+                <div id="getbalance" title="Check Your Balance"> 
+                    <input id = "searchinputid" type="search"> 
+                    <button class="button is-small is-dark" id="buttonid">Balance</button>
+                    <button class="button is-small is-dark" id="button2id">Tx Count</button> <br> <br> <br>
+                    <output id = "outputid" ></output> <br>
+                    <output id = "trancount"> </output>
+                </div>    
+            </form>
+        </div>    
+    </body>
+</html>
